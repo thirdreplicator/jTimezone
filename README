@@ -9,7 +9,11 @@ Depencies:
 
   jQuery 1.4.2
 
-Sample usage:
+Sample usage for the impatient:
+
+  $('comment_time_zone').jTimezone();
+
+Sample usage for patient people:
 
   Step 1. Copy and paste the plugin definition into your application.js file. Make sure it's inside a document-ready jQuery block.
   Step 2. Add a varchar(255) (string) column to your database table.  (Note, timezone's can change for users, because people have been known to travel.  Therefore, it makes more sense to attach the timezone stamp to things like comments, postings, etc.. -- geographically independent objects in your domain model.)
