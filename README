@@ -11,7 +11,7 @@ Depencies:
 
 Sample usage for the impatient:
 
-  $('comment_time_zone').jTimezone();
+  $('#comment_time_zone').jTimezone();
 
 Sample usage for patient people:
 
@@ -27,7 +27,7 @@ Sample usage for patient people:
 
   Step 4. Attach the timezone event handler to the "comment_time_zone" DOM element:
 
-$('comment_time_zone').jTimezone();
+$('#comment_time_zone').jTimezone();
 
   That's it. Now as soon as the end-user's browser loads the page, their timezone will be filled out in the hidden text field.  When they click on submit, you can process their timezone and save it to the table.
 
